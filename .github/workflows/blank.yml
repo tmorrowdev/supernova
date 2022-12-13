@@ -32,6 +32,6 @@ jobs:
         uses: shimewtr/submit_pull_request@v0.1.0
         with:
           # GITHUB_TOKEN or a `repo` scoped Personal Access Token
-          GITHUB_ACCESS_TOKEN: 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
+          GITHUB_ACCESS_TOKEN:  os.environ['GITHUB_ACCESS_TOKEN']
           # Label to be given to the submitted pull request
           LABEL: supernova
